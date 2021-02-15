@@ -187,9 +187,11 @@ Modify 'default.json' file.
 4. Configuration->DVB Inputs->Muxes->Add   
     Network: [Choose what you entered above]   
     URL: pipe://[ffmpeg path] -loglevel fatal -i [url] -vcodec copy -acodec copy -fflags nobuffer -f mpegts -tune zerolatency pipe:1   
+```
        ex) FFmpeg path : /bin/ffmpeg   
            Url : http://192.168.1.1:30012?freq=111&serviceId=222&pids=333,444,555&profile=pass   
          => pipe:///bin/ffmpeg -loglevel fatal -i http://192.168.1.1:30012?freq=111&serviceId=222&pids=333,444,555&profile=pass -vcodec copy -acodec copy -fflags nobuffer -f mpegts -tune zerolatency pipe:1   
+```  
        - Don't enter any quotes by mistake. There are no quotes here.   
        - AAC profiles(fhd_aac, hd_aac, sd_aac) is not compatible with TVHeadend.   
     And leave others, press 'Create'   
