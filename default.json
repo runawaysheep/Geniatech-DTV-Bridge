@@ -1,0 +1,17 @@
+{
+	"ip" : ["192.168.10.11", "192.168.10.12"],
+
+	"log" : "debug",
+	"fileLog" : true,
+
+	"mode" : "server",
+	"port" : 30012,
+
+	"profile" : "fhd",
+	"bitRate" : 0,
+
+	"bandWidth" : 6,
+	"mtype" : "8vsb",
+
+	"forceDeviceChange" : true
+}
