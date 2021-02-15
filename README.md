@@ -119,13 +119,13 @@ Modify 'default.json' file.
    
   This mode shuts down the program when the terminal is closed. To run in daemon mode, do the following:   
   ```
-  python denidtv.py --daemon start
+  python genidtv.py --daemon start
   ```
   
   If you want to stop, or check the status, do the following:   
   ```
-  python denidtv.py -d stop
-  python denidtv.py -d status
+  python genidtv.py -d stop
+  python genidtv.py -d status
   ```
   
   In media player...   
