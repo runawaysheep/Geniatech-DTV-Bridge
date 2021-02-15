@@ -1,10 +1,10 @@
 # Geniatech-DTV-Bridge
 
 ## Overview
-It's a UNOFFICIAL support tool for Geniatech SmartViewTV-SVT101.
-This program can receive broadcast data from the device and It has a built-in HTTP server.
-You can play TV programs with a player that can play network streams.
-And with the help of FFmpeg, it can be connected to TVHeadend.
+It's a UNOFFICIAL support tool for Geniatech SmartViewTV-SVT101.   
+This program can receive broadcast data from the device and It has a built-in HTTP server.   
+You can play TV programs with a player that can play network streams.   
+And with the help of FFmpeg, it can be connected to TVHeadend.   
 
 
 ## Requirement
@@ -53,9 +53,9 @@ Modify 'default.json' file.
                                                            fhd_aac : H264 1080p, AAC
                                                            hd_aac : H264 720p, AAC
                                                            sd_aac : H264 540p, AAC
-        "bitRate" : 0,                               ==> Bitrate for the broadcast stream. (0 is auto)
+        "bitRate" : 0,                               ==> Bitrate for the broadcast stream. (bps, 0 is auto)
 
-        "bandWidth" : 6,                             ==> Band width for the broadcast stream.
+        "bandWidth" : 6,                             ==> Band width for the broadcast stream. (Mhz)
         "mtype" : "8vsb",                            ==> (Just keep it as it is. I don't know if support something else like QAM.)
 
         "forceDeviceChange" : true                   ==> If all devices are in use, can force the device to disconnect while it is playing.
