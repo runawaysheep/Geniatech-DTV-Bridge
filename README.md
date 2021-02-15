@@ -18,7 +18,7 @@ And with the help of FFmpeg, it can be connected to TVHeadend.
 
   #### How to install all packages.   
    ```
-   pip3 install -r requirements.txt   
+   pip install -r requirements.txt   
    ```
 
 
